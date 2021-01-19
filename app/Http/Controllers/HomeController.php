@@ -83,4 +83,19 @@ class HomeController extends Controller
         }
         return view('order_history')->with(['transaction' => $transaction]);
     }
+   /* public function cari(Request $request)
+    {
+        // menangkap data pencarian
+        $cari = $request->cari;
+ 
+            // mengambil data dari table pegawai sesuai pencarian data
+        $transaction_all = Transaction::where('user_id', Auth::user()->id)->get();
+        $transaction = Transaction::where('user_id', Auth::user()->id)->where('order_no','like',"%".$cari."%")
+->paginate();
+        
+ 
+            // mengirim data pegawai ke view index
+        return view('order_history')->with(['transaction' => $transaction]);
+ 
+    }*/
 }

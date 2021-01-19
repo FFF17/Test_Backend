@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v5.6.33',
-    'version' => '5.6.33.0',
+    'pretty_version' => 'dev-default',
+    'version' => 'dev-default',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '51b3404069cd86ee1a61b566b8956499e91fd2cb',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -365,12 +365,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v5.6.33',
-      'version' => '5.6.33.0',
+      'pretty_version' => 'dev-default',
+      'version' => 'dev-default',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '51b3404069cd86ee1a61b566b8956499e91fd2cb',
     ),
     'laravel/tinker' => 
     array (
@@ -392,12 +392,12 @@
     ),
     'league/mime-type-detection' => 
     array (
-      'pretty_version' => '1.5.1',
-      'version' => '1.5.1.0',
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '353f66d7555d8a90781f6f5e7091932f9a4250aa',
+      'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
     ),
     'mockery/mockery' => 
     array (
@@ -603,8 +603,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 

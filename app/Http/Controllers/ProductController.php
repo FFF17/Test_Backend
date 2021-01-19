@@ -12,7 +12,7 @@ class ProductController extends Controller
     	date_default_timezone_set('Asia/Jakarta');
 
     	$count = Product::where('created_at', '>=', date('Y-m-d').' 00:00:00')->count();
-    	$order_no = 'P'.date("ymd").($count+1);
+    	$order_no = 'P'.date("ymd").($count+1).'00';
 
     	$product = new Product;
         $product->product_name = $r->product_name;

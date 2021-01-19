@@ -3,7 +3,18 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
         <div class="card-body">
-                    
+                <form action="/order_history/cari" method="GET">
+         <div class="input-group mb-3">
+
+  <input type="text" class="form-control" name="cari"value="<?php echo e(old('cari')); ?>"  aria-describedby="basic-addon2">
+            
+            <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">
+            <button type="submit" class="btn btn-sm btn-primary" value="CARI">Search</button>
+        </span>
+    </div>
+</div>
+</form>
                     <div class="table-responsive">
                       <table class="table table-bordered table-md">
                         <tr>

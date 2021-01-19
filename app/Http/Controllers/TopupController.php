@@ -12,7 +12,7 @@ class TopupController extends Controller
     	date_default_timezone_set('Asia/Jakarta');
 
     	$count = Topup_Balance::where('created_at', '>=', date('Y-m-d').' 00:00:00')->count();    	
-    	$order_no = 'T'.date("ymd").($count+1);
+    	$order_no = 'T'.date("ymd").($count+1).'00';
 
     	$topup = new Topup_Balance;
         $topup->mobile_no = $r->mobile_no;
