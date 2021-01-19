@@ -18,11 +18,11 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone git@github.com:FFF17/Test_Backend.git
 
 Switch to the repo folder
 
-    cd laravel-realworld-example-app
+    cd Test_Backend
 
 Install all the dependencies using composer
 
@@ -36,9 +36,6 @@ Generate a new application key
 
     php artisan key:generate
 
-Generate a new JWT authentication secret key
-
-    php artisan jwt:generate
 
 Run the database migrations (**Set the database connection in .env before migrating**)
 
